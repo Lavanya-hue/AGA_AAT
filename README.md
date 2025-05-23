@@ -1,9 +1,11 @@
 # AGA_AAT
 
 🧠 Mask Detection Using Autoencoders
+
 This project implements a mask detection system using an unsupervised learning technique called Autoencoders. The model is trained only on masked face images, learning to reconstruct them well. At test time, images with no masks (unseen variations) result in higher reconstruction errors, allowing us to distinguish masked vs. unmasked faces using a threshold.
 
 📌 Features
+
 Autoencoder-based anomaly detection.
 
 Contractive loss for robust feature learning.
@@ -53,6 +55,7 @@ AGA_AAT/
 
 
 🚀 How It Works
+
 Train the Autoencoder using only images of people wearing masks.
 
 The model learns to reconstruct these masked faces with low error.
@@ -64,11 +67,13 @@ Unmasked faces result in higher reconstruction errors.
 A threshold (set from the training error distribution) is used for classification.
 
 🖼️ Sample Output
+
 Top 5 original vs. reconstructed images (for masked and unmasked).
 
 Reconstruction error distribution plot.
 
 📦 Installation
+
 Clone this repo and install dependencies:
 
 git clone https://github.com/yourusername/Mask-Autoencoder-Detection.git
@@ -76,7 +81,9 @@ cd Mask-Autoencoder-Detection
 pip install -r requirements.txt
 
 🛠️ Usage
+
 1. Prepare Dataset
+
 Place your images in:
 data/
 
