@@ -77,7 +77,9 @@ Reconstruction error distribution plot.
 Clone this repo and install dependencies:
 
 git clone https://github.com/yourusername/Mask-Autoencoder-Detection.git
+
 cd Mask-Autoencoder-Detection
+
 pip install -r requirements.txt
 
 ## Usage
