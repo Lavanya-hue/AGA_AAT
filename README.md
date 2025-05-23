@@ -85,14 +85,19 @@ data/
 └── unmasked/
 
 2. Train the Autoencoder
+
 python train.py
 
 3. Run Evaluation
+
 python test.py
 
 🧩 Requirements
+
 Install the dependencies using:
+
 pip install -r requirements.txt
 
-> Anomaly detection with autoencoders.
-> Dataset: Custom curated masked/unmasked images.
+Anomaly detection with autoencoders.
+
+Dataset: Custom curated masked/unmasked images.
