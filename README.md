@@ -15,26 +15,42 @@ Automatically computes classification accuracy.
 Lightweight and interpretable architecture.
 
 📁 Project Structure
+
 AGA_AAT/
 │
+
 ├── data/
+
 │   ├── masked/          # Masked face images (~1915)
+
 │   └── unmasked/        # Unmasked face images (~1918)
 │
+
 ├── models/
+
 │   └── autoencoder.pth  # Saved trained model
 │
+
 ├── outputs/             # (Optional) Visualizations and error plots
 │
+
 ├── autoencoder.py       # Autoencoder model definition
+
 ├── train.py             # Trains model on masked images
+
 ├── test.py              # Evaluates and classifies based on reconstruction error
+
 ├── utils.py             # Utilities for image loading/preprocessing
 │
+
 ├── requirements.txt     # List of Python dependencies
+
 ├── .gitignore           # Files/folders to ignore in version control
+
 ├── LICENSE              # License information
+
 └── README.md            # This file
+
 
 🚀 How It Works
 Train the Autoencoder using only images of people wearing masks.
@@ -63,7 +79,9 @@ pip install -r requirements.txt
 1. Prepare Dataset
 Place your images in:
 data/
+
 ├── masked/
+
 └── unmasked/
 
 2. Train the Autoencoder
